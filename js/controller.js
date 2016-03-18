@@ -1,13 +1,11 @@
+'use strict';
+
 var app = angular.module('myApp', []);
-app.controller('productList', ['$scope', '$http', function($scope, $http) {
-    var getProducts = function(){
-    	$http.get('./data/products.json').success(function(response){
-    		// $scope.products = response;
-    		// console.log("haha: " + products);
-    	})
-    };
-    getProducts();
-}]);
+app.controller('productList', function($scope, $http) {
+	$http.get('./data/products.json').success(function(response){
+		$scope.items = response.items;
+	})
+});
 
 
 
