@@ -8,7 +8,7 @@
 	<script type="applijewelleryion/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 	<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 	<!-- Custom Theme files -->
-	<link href="css/style.css" rel='stylesheet' type='text/css' />	
+	<link href="css/style.css" rel='stylesheet' type='text/css' />
 	<script src="js/jquery-1.11.1.min.js"></script>
 	<!--webfonts-->
 	<link href='http://fonts.useso.com/css?family=Lora:400,400italic|Niconne' rel='stylesheet' type='text/css'>
@@ -17,11 +17,11 @@
 </head>
 <body>
 	<!--start-home-->
-	<!-- header -->	
+	<!-- header -->
 	<div class="header" id="home">
 		<div class="container">
 		</div>
-	</div>	
+	</div>
 	<!-- //header -->
 	<!-- banner -->
 	<div class="banner">
@@ -71,7 +71,7 @@
 						<div class="banner-info">
 							<h3>Adams <lable>&</lable> Eve</h3>
 							<p>Mar 30TH, 2016</p>
-						</div>								
+						</div>
 					</li>
 				</ul>
 			</div>
@@ -113,98 +113,17 @@
 			<div class="container" ng-controller="productList">
 				<h3>New Products</h3>
 				<div class="row event-grids">
-					<div class="col-md-3" ng-repeat="item in items">
+					<div class="dhover col-md-3 col-sm-4 col-xs-6" ng-repeat="item in items" ng-click="showDetail(item.id)">
 						<div class="thumbnail">
 							<img src="{{item.image}}" class="img-responsive" alt="...">
 							<div class="caption">
 								<h4>{{item.title}}</h4>
 								<p>{{item.description}}</p>
-								<p><a href="#" class="btn btn-info" role="button">Button</a></p>
 							</div>
 						</div>
 					</div>
-<!-- 					<div class="col-md-3 event-grids">
-						<div class="thumbnail">
-							<img src="images/e1.jpg" class="img-responsive" alt="...">
-							<div class="caption">
-								<h4>WEDDING CEREMONY</h4>
-								<p>Aliquam dapibus tincidunt metus. Praesent justo dolor, lobortis quis, lobortis dignissim, pulvinar ac, lorem. Lorem ipsum dolor sit amet,…</p>
-								<p><a href="#" class="btn btn-info" role="button">Button</a></p>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3 event-grids">
-						<div class="thumbnail">
-							<img src="images/e2.jpg" class="img-responsive" alt="...">
-							<div class="caption">
-								<h4>WEDDING CEREMONY</h4>
-								<p>Aliquam dapibus tincidunt metus. Praesent justo dolor, lobortis quis, lobortis dignissim, pulvinar ac, lorem. Lorem ipsum dolor sit amet,…</p>
-								<p><a href="#" class="btn btn-info" role="button">Button</a></p>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3 event-grids">
-						<div class="thumbnail">
-							<img src="images/e3.jpg" class="img-responsive" alt="...">
-							<div class="caption">
-								<h4>WEDDING CEREMONY</h4>
-								<p>Aliquam dapibus tincidunt metus. Praesent justo dolor, lobortis quis, lobortis dignissim, pulvinar ac, lorem. Lorem ipsum dolor sit amet,…</p>
-								<p><a href="#" class="btn btn-info" role="button">Button</a></p>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3 event-grids">
-						<div class="thumbnail">
-							<img src="images/e2.jpg" class="img-responsive" alt="...">
-							<div class="caption">
-								<h4>WEDDING CEREMONY</h4>
-								<p>Aliquam dapibus tincidunt metus. Praesent justo dolor, lobortis quis, lobortis dignissim, pulvinar ac, lorem. Lorem ipsum dolor sit amet,…</p>
-								<p><a href="#" class="btn btn-info" role="button">Button</a></p>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3">
-						<div class="thumbnail">
-							<img src="images/e1.jpg" class="img-responsive" alt="...">
-							<div class="caption">
-								<h4>WEDDING CEREMONY</h4>
-								<p>Aliquam dapibus tincidunt metus. Praesent justo dolor, lobortis quis, lobortis dignissim, pulvinar ac, lorem. Lorem ipsum dolor sit amet,…</p>
-								<p><a href="#" class="btn btn-info" role="button">Button</a></p>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3">
-						<div class="thumbnail">
-							<img src="images/e2.jpg" class="img-responsive" alt="...">
-							<div class="caption">
-								<h4>WEDDING CEREMONY</h4>
-								<p>Aliquam dapibus tincidunt metus. Praesent justo dolor, lobortis quis, lobortis dignissim, pulvinar ac, lorem. Lorem ipsum dolor sit amet,…</p>
-								<p><a href="#" class="btn btn-info" role="button">Button</a></p>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3">
-						<div class="thumbnail">
-							<img src="images/e3.jpg" class="img-responsive" alt="...">
-							<div class="caption">
-								<h4>WEDDING CEREMONY</h4>
-								<p>Aliquam dapibus tincidunt metus. Praesent justo dolor, lobortis quis, lobortis dignissim, pulvinar ac, lorem. Lorem ipsum dolor sit amet,…</p>
-								<p><a href="#" class="btn btn-info" role="button">Button</a></p>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3">
-						<div class="thumbnail">
-							<img src="images/e2.jpg" class="img-responsive" alt="...">
-							<div class="caption">
-								<h4>WEDDING CEREMONY</h4>
-								<p>Aliquam dapibus tincidunt metus. Praesent justo dolor, lobortis quis, lobortis dignissim, pulvinar ac, lorem. Lorem ipsum dolor sit amet,…</p>
-								<p><a href="#" class="btn btn-info" role="button">Button</a></p>
-							</div>
-						</div>
-					</div> -->
 				</div>
-			</div>			
+			</div>
 		</div>
 
 		<!--/bottom-section-->
@@ -225,7 +144,7 @@
 		<!--start-smoth-scrolling-->
 		<script type="text/javascript">
 			jQuery(document).ready(function($) {
-				$(".scroll").click(function(event){		
+				$(".scroll").click(function(event){
 					event.preventDefault();
 					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
 				});

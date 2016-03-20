@@ -1,11 +1,27 @@
 'use strict';
 
 var app = angular.module('myApp', []);
-app.controller('productList', function($scope, $http) {
-	$http.get('./data/products.json').success(function(response){
-		$scope.items = response.items;
+
+app.controller('productList', ['$scope', '$http', '$location', function($scope, $http, $location) {
+
+  var products;
+  var product;
+
+  $http.get('./data/products.json').success(function(response){
+		products = response.items;
+    $scope.items = response.items;
 	})
-});
+
+  $scope.showDetail = function(id){
+    for(var i = 0; i < products.length; i++){
+      if(id == products[i].id){
+        product = products[i];
+        $location.path('/products.html').replace();
+      }
+    }
+  }
+
+}]);
 
 
 

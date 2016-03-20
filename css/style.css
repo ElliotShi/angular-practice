@@ -27,8 +27,8 @@ input[type="button"],input[type="submit"],li.parallelogram{
 	-ms-transition:0.5s all;
 }
 h1,h2,h3,h4,h5,h6{
-	margin:0;			   
-}	
+	margin:0;
+}
 p{
 	margin:0;
 }
@@ -43,14 +43,14 @@ label{
 	float:left;
 }
 .logo a h1{
- color:#fff;	
+ color:#fff;
  font-size:2.5em;
  padding: 0.5em 0.3em 0 0.5em;
  font-weight:600;
  font-family: 'Lora', serif;
  }
 .logo  a h1:hover{
- color:#fff;	
+ color:#fff;
  text-decoration:none;
 }
 .logo  a h1 span{
@@ -269,7 +269,7 @@ a.sign {
 	  padding: 0.5em;
 	  font-weight: 400;
 	  font-size:0.9em;
-	  float:none;	
+	  float:none;
 	 }
 }
 /*----start-home---*/
@@ -482,7 +482,7 @@ a.sign {
 .welcome-section {
   padding:4em 0;
   text-align:center;
-  
+
 }
 .welcome-section h2{
  font-family: 'Niconne', cursive;
@@ -548,8 +548,8 @@ a.sign {
 	top: 10px;
     left: 10px;
 	background: #f9f9f9 url(../images/bg.jpg);
-	box-shadow: 
-		0 0 0 20px rgba(255,255,255,0.2), 
+	box-shadow:
+		0 0 0 20px rgba(255,255,255,0.2),
 		inset 0 0 3px rgba(115,114, 23, 0.8);
 }
 .ch-info{
@@ -565,7 +565,7 @@ a.sign {
 	-moz-transition: all 0.4s ease-in-out;
 	-o-transition: all 0.4s ease-in-out;
 	-ms-transition: all 0.4s ease-in-out;
-	transition: all 0.4s ease-in-out;	
+	transition: all 0.4s ease-in-out;
 	-webkit-transform-style: preserve-3d;
 	-moz-transform-style: preserve-3d;
 	-o-transform-style: preserve-3d;
@@ -594,11 +594,11 @@ a.sign {
 	background: #079480;
 }
 
-.ch-img-1 { 
+.ch-img-1 {
 	background-image: url(../images/w2.jpg);
 }
 
-.ch-img-2 { 
+.ch-img-2 {
 	background-image: url(../images/w1.jpg);
 }
 
@@ -611,7 +611,7 @@ a.sign {
   padding: 113px 0 0 0;
   height: 159px;
   font-family: 'Open Sans', Arial, sans-serif;
-  text-shadow: 0 0 1px #fff, 
+  text-shadow: 0 0 1px #fff,
  0 1px 2px rgba(0,0,0,0.3);
 }
 
@@ -643,8 +643,8 @@ a.sign {
 }
 
 .ch-item:hover .ch-info-wrap {
-	box-shadow: 
-		0 0 0 0 rgba(255,255,255,0.8), 
+	box-shadow:
+		0 0 0 0 rgba(255,255,255,0.8),
 		inset 0 0 3px rgba(115,114, 23, 0.8);
 }
 
@@ -863,7 +863,7 @@ h3.type  {
 .grid_4{
 	background:#fff;
 	padding:2em 0em 0em 0em;
-}  
+}
 .grid_5{
 	background:#fff;
 	padding:1em 0 2em 0;
@@ -1305,7 +1305,7 @@ color: #000;
 	display: inline-block;
 	text-transform: uppercase;
 }
-.form-list label {	
+.form-list label {
 	color: #000;
 	font-weight: bold;
 	position: relative;
@@ -1481,7 +1481,7 @@ ul.contact-grids h5{
 }
 .contact-content form textarea{
 	resize:none;
-	height:170px;		
+	height:170px;
 }
 .submit{
 	text-align:center;
@@ -1520,7 +1520,7 @@ ul.contact-grids h5{
    padding: 0.5em 0;
 }
 .copy {
-  float:left;  
+  float:left;
   background: #00b198;
    padding: 1em 0 0 0;
 }
